@@ -1,0 +1,185 @@
+html{
+	
+	background-color: #4E6E81;
+}
+
+
+body{
+	width: 1100px; 
+    border: 2px solid black; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px;
+	background-color:#F9DBBB;
+	
+}
+
+header{
+	text-align:center;
+	width: 100%;
+	background-color:#FF0303;
+}
+
+h1{
+	color: #212F3D;
+    font-family: cursive; 
+	
+}
+
+h2{
+	color: #212F3D;
+    font-family: cursive; 
+
+}
+nav{
+	padding: 10px 0;
+	text-align: center;
+	background-color:#212F3D;
+}
+
+p{
+	color: #4A235A;
+	font-family: sans-serif;
+}
+
+nav ul li ul{ 
+	width: 250px;
+	position: absolute; 
+	z-index: 999; 
+	text-align: left;
+	background-color: #890417;
+	box-shadow: 0 0 5px #800d29;
+}
+
+nav ul li ul { 
+    display: none; 
+}
+
+nav ul li ul li:hover a:hover{ 
+	color: #890417;
+	background-color: #f7e7d9;
+}
+
+nav ul li:hover ul{
+	
+	display:block;	
+}
+
+nav a{
+	font-family:sans-serif ;
+	font-size: 20px; 
+    font-weight: bold; /* make the text bold */
+    color: #D35400; /* change the colour of the text links */
+    text-decoration: none; /* remove the underline */
+    padding: 0 30px; 
+}
+
+nav ul{ /* applies these styles to all the child <ul> tags in <nav> */
+	list-style-type:none;	/* remove the dots from the list */
+	padding: 0;
+	margin: 0;
+}	
+
+nav>ul>li{/* Only applies these styles to the immediate child <li> in the immedi
+ate child <ul> in <nav>. Basically it only affects the <li> in the main menu not
+the sub menu */
+	display:inline-block;/* to make the links in the main menu site side by side */
+	position:relative;/* to make the parent <li> as the container element of the 
+	absolutely positioned <ul> representing the sub menu */
+	
+}
+aside li:nth-child(odd){
+    color: white; /* chagne the colour of the text */
+    background-color: #890417; /* add a background colour */
+}
+
+
+main{
+	width: 800px;
+	float: right; 
+	color: white;
+	
+}
+
+aside{
+	 width: 200px; /* set the width of the sidebar */
+    float: left; /* push the sidebar to the right */
+    padding-right: 24px; /* add a 20px space on the left*/
+	background-color:#7DB9B6;
+}
+
+aside li{
+
+    color: #890417; /* changes colour */
+    text-align: center; /* centers text */
+    font-family: sans-serif; /* changes font family */
+    font-size: 20px; /* changes font size */
+    padding: 10px 0; /* adds some space on the top and bottom */
+}
+
+
+footer{
+	clear: both;
+	text-align: center;
+	font-weight:normal;	
+	font-size: 20px;
+	color: #E74C3C;
+	padding:5px 0 ;
+	background-color: #F5CBA7;
+}
+
+ion-icon{
+	font-size: 24px;
+	color: blue;
+	border: 1px solid;
+	border-color: red;
+	
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th{
+  border: 1px solid #800000;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+tr:nth-child(even){
+	background-color: #93a5db;
+}
+
+tr:nth-child(odd){
+	background-color: #3C486B;
+}
+
+
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+}
+	
+.header-1{
+	position:relative;
+	width: 100px;
+	height: 70px;
+	left: 450px;
+	top: 70px;
+	border: 2px solid;
+	border-color: blue; 
+}
+
+.header-2{
+	position:relative;
+	width: 100px;
+	height: 70px;
+	right: 450px;
+	bottom: 70px;
+	border: 2px solid;
+	border-color: blue; 
+}

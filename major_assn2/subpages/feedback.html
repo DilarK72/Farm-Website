@@ -1,0 +1,138 @@
+<!---Diego Ramos 
+Student ID: 87652254--->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../styles/feedback.css">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<title>Major Assignment 2: Web Foundations</title>
+</head>
+<body>
+    <!----Ionicon framework to enable icons embedded in the HTML-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<header>
+		<div class="wrapper">
+			<img class="header-1" src="../images/farmboy.jpg" alt="boy">
+	   
+		<h1>Welcome to Dernega Livestock Association</h1>
+		
+			<img class="header-2" src="../images/flags.jpg" alt="reds">
+		</div>	
+    </header>
+
+    <nav>
+		<!-- First level UL for the main -->
+			<ul>
+				
+				<li><a>Home</a></li>
+				<li><a>Dairy Products</a></li>
+				<li>
+				<!-- Second level UL for the sub menu -->
+				<a href="">Contact Information</a>
+				
+					<ul>
+						<li><a href="">Phone number</a></li>
+						<li><a href="">E-mail address</a></li>
+					</ul>
+				</li>
+				<li><a>Our entrepreneurship</a></li>
+				<li><a>Job openings</a></li>
+			</ul>
+
+
+     </nav>
+
+	<main>
+	<h2>Feedback section:</h2>
+	
+		<form>
+		
+		<div>
+		  <label for="fname">First name:</label><br>
+		  <input type="text" id="fname" name="fname"><br>
+		  <label for="lname">Email-address:</label><br>
+		  <input type="text" id="lname" name="lname">
+		</div>
+		
+		<br>
+			<div>
+		  <label for="Animals">Animals:</label>
+			<select id="animals" name="animals">
+			  <option value="Cow">Cow</option>
+			  <option value="Duck">Duck</option>
+			  <option value="Sheep">Sheep</option>
+			</div> 
+		</select>
+		<br>  
+		
+		
+		<br>Comments:</br>		
+		<textarea name="message" cols="50" rows= "7"></textarea>
+		<br>		
+		 <input type="submit" value="Submit">
+		 <input type="reset" value="Reset">
+		<br></br>
+		
+		<fieldset>
+			<legend>Insights</legend>
+			<div>
+			<input type="checkbox" name="emo1" id="emo1" value="fun">
+			<label for="emo1">Fun to visit</label>
+			</div>
+			<div>
+			<input type="checkbox" name="emo2" id="emo2" value="well">
+			<label for="emo2">Well Designed</label>
+			</div>
+			<div>
+			<input type="checkbox" name="emo3" id="emo3" value="emo3">
+			<label for="emo3">Uses good colours</label>
+			</div>
+		</fieldset>
+		
+		<br>Will you visit my site again?</br>
+		
+		<fieldset>
+		<legend>Choose</legend>
+		<div>
+		<input type="radio" name="re1" id="small" value="YES">
+		<label for="small">Yes</label>
+		</div>
+		<div>
+		<input type="radio" name="re2" id="medium" value="NO">
+		<label for="medium">No</label>
+		</div>
+		
+		</fieldset>
+		
+		</form>
+	
+
+	</main>
+
+	<aside>
+			<ul>
+				<li><a>Navigation area</li></a>
+			</ul>
+			
+						
+			<ol>
+			
+				<li><a href="../main/index.html"><ion-icon name="home"></ion-icon></a> <caption>Home Page</caption></li>
+				<li><a href="image.html"><ion-icon name="images"></ion-icon></a> <caption>Image Page</caption></li>
+				<li><a href="video.html"><ion-icon name="videocam"></ion-icon></a> <caption>Video Page</caption></li>
+				<li><a href="table.html"><ion-icon name="grid"></ion-icon></a> <caption>Table Page</caption></li>
+				<li><a href="feedback.html"><ion-icon name="list-circle"></ion-icon></a> <caption>Feedback Page</caption></li>
+			</ol>
+
+	</aside>
+
+	<footer>
+		&copy; Copyright Conestoga College, 2022
+	</footer>
+</body>	
+</html>
